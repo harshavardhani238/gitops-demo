@@ -17,6 +17,7 @@ asciidoc:
     page-pagination: true
   extensions:
     - ./lib/remote-include-processor.js
+    - ./lib/tab-block.js
 ui:
   bundle:
     url: https://github.com/redhat-developer-demos/rhd-tutorial-ui/releases/download/v0.1.9/ui-bundle.zip
